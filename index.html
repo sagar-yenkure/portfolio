@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sagar_yenkure</title>
+
+<!-- links for css styles and fonts -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+<!-- <link rel="shortcut icon" href="favicon.ico" type=""> -->
+
+  </head>
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!-- #SIDEBAR -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/profile.jpg"
+              alt="Sagar Yenkure"
+              width="50"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Sagar yenkure">Sagar yenkure</h1>
+
+            <p class="title">Web developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:yenkuresagar2104@gmail.com" class="contact-link"
+                  >yenkuresagar2104@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:749801216" class="contact-link">+91 749801216</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">April 21, 2001</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Hadapsar , Pune , Maharastra</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/sagar-yenkure" target="_blank" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="https://www.instagram.com/sagar_yenkure/"target="_blank" class="social-link">
+                <ion-icon name="document-outline"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="www.linkedin.com/in/sagar-yenkure"target="_blank" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/sagar_yenkure/"target="_blank" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      main-content
+    -->
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <h1>I'm a Web Developer</h1>
+            <p>
+              I'm Web Developer from Maharashtra, India, I build apps with a
+              focus on React ,Tailwind css , Node.js , Express.js ,MongoDB I
+              enjoy turning complex problems into simple, beautiful and
+              intuitive designs. A Software Engineer, who loves to solve
+              problems.
+            </p>
+            <p>
+              I am having an experience of building high-performing, responsive,
+              beautiful web applications to deliver a unique, intuitive user
+              experience that works, also keen interest in UI/UX with some nice
+              designing skills. I am a well-trained a teammate who loves to
+              share ideas and prioritizes communication in order to achieve
+              goals within the set deadlines. I enjoy being challenged and
+              working on projects that require me to step outside of my comfort
+              zone
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web design</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  BCA (Bachelor of Computer Applications)
+                </h4>
+
+                <span>2020 – 2022</span>
+
+                <p class="timeline-text">Savitribai Phule Pune University</p>
+                <p class="timeline-text">Passed with 8.5 CGPA</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">HSC</h4>
+
+                <span>2018 – 2019</span>
+
+                <p class="timeline-text">Dr.Dada gujar collage</p>
+                <p class="timeline-text">passed with 60%</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">SSC</h4>
+
+                <span>2016 – 2017</span>
+
+                <p class="timeline-text">Dr.Dada gujar collage</p>
+                <p class="timeline-text">passed with 75%</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+              <p class="timeline-text">
+                These are the technologies I've worked with
+              </p>
+            </div>
+            <div class="skills flex">
+              <ion-icon name="logo-html5"></ion-icon>
+              <ion-icon name="logo-css3"></ion-icon>
+              <ion-icon name="logo-javascript"></ion-icon>
+              <ion-icon name="logo-react"></ion-icon>
+              <img
+                class="imgskills"
+                src="./assets/images/tailwind.svg"
+                alt="tailwindcss"
+              />
+              <img
+                class="imgskills"
+                src="./assets/images/bootstrap.svg"
+                alt="Bootstrap"
+              />
+              <img
+                class="imgskills"
+                src="./assets/images/redux.svg"
+                alt="redux"
+              />
+              <ion-icon name="logo-npm"></ion-icon>
+              <ion-icon name="logo-nodejs"></ion-icon>
+              <img
+                class="imgskills"
+                src="./assets/images/express.svg"
+                alt="express"
+              />
+              <img src="./assets/images/mongodb.svg" alt="mongo" />
+              <ion-icon name="logo-github"></ion-icon>
+              <img class="imgskills" src="./assets/images/git.svg" alt="git" />
+              <ion-icon name="logo-stackoverflow"></ion-icon>
+            </div>
+          </section>
+        </article>
+
+        <!-- projects blogs -->
+
+        <article class="blog" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul id="projectlist" class="blog-posts-list">
+              <!-- a personal portfolio website -->
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/port.png"
+                      alt="portfolio"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">HTML</p>
+                      <span class="dot"></span>
+                      <p class="blog-category">CSS</p>
+                      <span class="dot"></span>
+                      <p class="blog-category">JAVASCRIPT</p>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">portfolio</h3>
+
+                    <p class="blog-text">
+                      A simple and mordern looking portfolio with Vanilla html ,
+                      css and javascript
+                    </p>
+                    <div class="onlyflex">
+                      <a
+                        class="form-btn"
+                        target="_blank"
+                        href="https://github.com/sagar-yenkure/EasyNotes"
+                        ><ion-icon name="code-slash-outline"></ion-icon
+                      ></a>
+                      <a
+                        class="form-btn"
+                        target="_blank"
+                        href="https://github.com/sagar-yenkure/EasyNotes"
+                      >
+                        <ion-icon name="pulse-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <!-- a news link app -->
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/easynote.png"
+                      alt="Easy_Notes"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">React.js</p>
+                      <span class="dot"></span>
+                      <p class="blog-category">Tailwindcss</p>
+                      <span class="dot"></span>
+                      <p class="blog-category">Express.js</p>
+                      <span class="dot"></span>
+                      <p class="blog-category">MongoDB</p>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Easy Notes</h3>
+
+                    <p class="blog-text">
+                      A Note saving web application with React.js and
+                      Tailwindcss for frontend and Express.js and Mongodb for
+                      database
+                    </p>
+                    <div class="onlyflex">
+                      <a
+                        class="form-btn"
+                        target="_blank"
+                        href="https://github.com/sagar-yenkure/EasyNotes"
+                        ><ion-icon name="code-slash-outline"></ion-icon
+                      ></a>
+                      <a
+                        class="form-btn"
+                        target="_blank"
+                        href="https://github.com/sagar-yenkure/EasyNotes"
+                      >
+                        <ion-icon name="pulse-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <!-- project netflix clone -->
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/netflix.png"
+                      alt="Netflix"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">React.js</p>
+                      <span class="dot"></span>
+                      <p class="blog-category">Tailwindcss</p>
+                      <span class="dot"></span>
+                      <p class="blog-category">Express.js</p>
+                      <span class="dot"></span>
+                      <p class="blog-category">MongoDB</p>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Netflix</h3>
+
+                    <p class="blog-text">
+                      A Netflix clone with React.js ,Tailwindcss for frontend
+                      and Backend authentication with express.js, mongodb for
+                      database.
+                    </p>
+                    <div class="onlyflex">
+                      <a
+                        class="github__link form-btn"
+                        target="_blank"
+                        href="https://github.com/sagar-yenkure/Netflix_Clone"
+                        ><ion-icon name="code-slash-outline"></ion-icon
+                      ></a>
+                      <a
+                        class="live__link form-btn"
+                        target="_blank"
+                        href="https://netflix-11.netlify.app/"
+                      >
+                        <ion-icon name="pulse-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <!-- the microsoft clone -->
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/micro.png"
+                      alt="microsoft"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Vite</p>
+                      <span class="dot"></span>
+                      <p class="blog-category">Tailwindcss</p>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Microsoft</h3>
+
+                    <p class="blog-text">
+                      A Microsoft home page clone with TailwindCSS.
+                    </p>
+                    <div class="onlyflex">
+                      <a
+                        class="form-btn"
+                        target="_blank"
+                        href="https://github.com/sagar-yenkure/microsoft_home_clone"
+                        ><ion-icon name="code-slash-outline"></ion-icon
+                      ></a>
+                      <a
+                        class="form-btn"
+                        target="_blank"
+                        href="https://microsoft1homepage.netlify.app/"
+                      >
+                        <ion-icon name="pulse-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <!-- the news website -->
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/newslink.png"
+                      alt="newslink"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">React.js</p>
+                      <span class="dot"></span>
+                      <p class="blog-category">Tailwindcss</p>
+                      <span class="dot"></span>
+                      <p class="blog-category">News API</p>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">News Link</h3>
+
+                    <p class="blog-text">
+                      A News web application with React.js and Tailwindcss and
+                      NewsAPI for fetching news .
+                    </p>
+                    <div class="onlyflex">
+                      <a
+                        class="form-btn"
+                        target="_blank"
+                        href="https://github.com/sagar-yenkure/NewsLink"
+                        ><ion-icon name="code-slash-outline"></ion-icon
+                      ></a>
+                      <a
+                        class="form-btn"
+                        target="_blank"
+                        href="https://news-link.netlify.app/"
+                      >
+                        <ion-icon name="pulse-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <!-- the todo with redux -->
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/todoredux.png"
+                      alt="todowithredux"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">React.js</p>
+                      <span class="dot"></span>
+                      <p class="blog-category">Tailwindcss</p>
+                      <span class="dot"></span>
+                      <p class="blog-category">Redux</p>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Todo with Redux</h3>
+
+                    <p class="blog-text">
+                      A simple todo web appliaction with Redux for state
+                      management.
+                    </p>
+                    <div class="onlyflex">
+                      <a
+                        class="form-btn"
+                        target="_blank"
+                        href="https://github.com/sagar-yenkure/Todo_With_Redux"
+                        ><ion-icon name="code-slash-outline"></ion-icon
+                      ></a>
+                      <a
+                        class="form-btn"
+                        target="_blank"
+                        href="https://todowithreduxx.netlify.app/"
+                      >
+                        <ion-icon name="pulse-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="and_more">And More on github....</li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="https://formspree.io/f/mpzgblpn"   method="POST" class="form" data-form>
+              <div class="input-wrapper">
+               
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="subject"
+                class="form-input"
+                placeholder="subject"
+                required
+                data-form-input
+              ></textarea>
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+
+
+    <!-- javascript scripts  -->
+    <script src="./assets/js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
