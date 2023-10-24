@@ -264,10 +264,6 @@ article.active {
   z-index: -1;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #MAIN
 \*-----------------------------------*/
@@ -277,9 +273,6 @@ main {
   margin-bottom: 75px;
   min-width: 259px;
 }
-
-
-
 
 
 
@@ -400,8 +393,6 @@ main {
 
 
 
-
-
 /*-----------------------------------*\
   #NAVBAR
 \*-----------------------------------*/
@@ -440,9 +431,6 @@ main {
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
 
-
-
-
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
@@ -457,8 +445,6 @@ main {
 }
 
 .about-text p { margin-bottom: 15px; }
-
-
 
 /**
  * #service 
@@ -613,11 +599,6 @@ main {
   border-radius: inherit;
 }
 
-
-
-
-
-
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
@@ -629,8 +610,6 @@ main {
   grid-template-columns: 1fr;
   gap: 20px;
 }
-
-
 
 .blog-banner-box {
   width: 100%;
@@ -687,9 +666,6 @@ main {
 }
 
 
-
-
-
 /*-----------------------------------*\
   #CONTACT
 \*-----------------------------------*/
@@ -704,14 +680,6 @@ main {
   overflow: hidden;
 }
 
-.mapbox figure { height: 100%; }
-
-.mapbox iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  filter: grayscale(1) invert(1);
-}
 
 .contact-form { margin-bottom: 10px; }
 
@@ -766,10 +734,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   background: var(--border-gradient-onyx);
   color: var(--orange-yellow-crayola);
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* gap: 10px; */
-  /* padding: 13px 20px; */
+
   border-radius: 14px;
   font-size: var(--fs-6);
   text-transform: capitalize;
@@ -803,10 +768,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
-
-
-
-
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
@@ -823,8 +784,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(33.33% - 10px); }
 
-
-
   /**
    * #PORTFOLIO, BLOG 
    */
@@ -833,10 +792,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .blog-banner-box { height: auto; }
 
 }
-
-
-
-
 
 /**
  * responsive larger than 580px screen
@@ -863,9 +818,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     --fs-8: 12px;
 
   }
-
-
-
   /**
    * #REUSED STYLE
    */
@@ -1045,9 +997,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .form-btn ion-icon { font-size: 18px; }
 
 }
-
-
-
 
 
 /**
