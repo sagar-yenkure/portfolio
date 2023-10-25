@@ -1107,7 +1107,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .navbar-link { --fs-8: 15px; }
   /* portfolio and blog grid */
 
-  .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
+  .project-list, .blog-posts-list { grid-template-columns: 1fr; }
 
   /**
    * CONTACT
@@ -1254,7 +1254,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   /**
    * RESET
    */
-
+   .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
   body::-webkit-scrollbar { width: 20px; }
 
   body::-webkit-scrollbar-track { background: var(--smoky-black); }
