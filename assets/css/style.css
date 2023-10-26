@@ -634,8 +634,8 @@ main {
   color: goldenrod; }
 
 .imgskills{
-width:30px ;
-height:30px ;  
+width:35px ;
+height:35px ;  
   }
 
   .exp{
@@ -1154,8 +1154,9 @@ textarea.form-input::-webkit-resizer { display: none; }
     color: goldenrod; }
   
   .imgskills{
-  width:60px ;
-  height:60px ;  
+    align-items: center;
+  width:70px ;
+  height:70px ;  
     }
   
     .exp{
