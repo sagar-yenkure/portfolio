@@ -1,3 +1,2 @@
 # portfolio
-A simple and mordern portfolio website created with html css and js
-sagar-yenkure.github.io/portfolio/
+A simple and mordern portfolio website created with html css and js.
